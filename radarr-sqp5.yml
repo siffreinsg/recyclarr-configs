@@ -95,40 +95,40 @@ radarr:
           - 2a6039655313bf5dab1e43523b62c374  # MA
           - 16622a6911d1ab5d5b8b713d5b0036d4  # CRiT
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
 
       # Custom Scoring
       # UHD Bluray Tiers
       - trash_ids:
           - 4d74ac4c4db0b64bff6ce0cffef99bf0  # UHD Bluray Tier 01
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: 2300
 
       - trash_ids:
           - a58f517a70193f8e578056642178419d  # UHD Bluray Tier 02
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: 2200
 
       - trash_ids:
           - e71939fae578037e7aed3ee219bbe7c1  # UHD Bluray Tier 03
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: 2100
 
       - trash_ids:
           # Resolution
           - fb392fb0d61a010ae38e49ceaa24a1ef  # 2160p
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: 151
 
       - trash_ids:
           # DV (WEBDL)
           - 923b6abef9b17f937fab56cfcf89e1f1  # DV (WEBDL)
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             # If you and all of your users have a setup that fully supports DV, then uncomment the
             # next line to override the default DV (WEBDL) score of -10000
             score: 0
@@ -139,7 +139,7 @@ radarr:
           # Misc
           - 2899d84dc9372de3408e6d8cc18e9666  # x264
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: -10000
 
       - trash_ids:
@@ -159,5 +159,5 @@ radarr:
           - e36a0ba1bc902b26ee40818a1d59b8bd  # PMTP
           - c2863d2a50c9acad1fb50e53ece60817  # STAN
         quality_profiles:
-          - name: Bluray|IMAX-E|2160p
+          - name: Bluray|IMAX-E|2160p [SQP5]
             score: 0
