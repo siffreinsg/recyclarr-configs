@@ -5,7 +5,7 @@ sonarr:
     delete_old_custom_formats: true
     replace_existing_custom_formats: true
     quality_definition:
-      type: anime
+      type: series
     quality_profiles:
       - name: Remux-1080p - Anime
         reset_unmatched_scores: false
