@@ -202,7 +202,7 @@ radarr:
           - 2a6039655313bf5dab1e43523b62c374  # MA
           - 16622a6911d1ab5d5b8b713d5b0036d4  # CRiT
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
 
       # Custom Scoring
       # HQ Release Groups - Optional
@@ -211,19 +211,19 @@ radarr:
       - trash_ids:
           - ed27ebfef2f323e964fb1f61391bcb35  # HD Bluray Tier 01
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             score: 1100
 
       - trash_ids:
           - c20c8647f2746a1f4c4262b0fbbeeeae  # HD Bluray Tier 02
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             score: 1050
 
       - trash_ids:
           - 5608c71bcebba0a5e666223bae8c9227  # HD Bluray Tier 03
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             score: 1000
       # --HQ Release Groups section ends--
 
@@ -231,7 +231,7 @@ radarr:
           # DV (WEBDL)
           - 923b6abef9b17f937fab56cfcf89e1f1  # DV (WEBDL)
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             # If you and all of your users have a setup that fully supports DV, then uncomment the
             # next line to override the default DV (WEBDL) score of -10000
             # score: 0
@@ -259,7 +259,7 @@ radarr:
           - e36a0ba1bc902b26ee40818a1d59b8bd  # PMTP
           - c2863d2a50c9acad1fb50e53ece60817  # STAN
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             score: 0
 
       - trash_ids:
@@ -271,5 +271,5 @@ radarr:
           - 8e109e50e0a0b83a5098b056e13bf6db  # DTS-HD HRA
           - f9f847ac70a0af62ea4a08280b859636  # DTS-ES
         quality_profiles:
-          - name: Bluray|WEB-2160p
+          - name: Bluray|WEB-2160p [SQP1-2160p]
             score: -10000
