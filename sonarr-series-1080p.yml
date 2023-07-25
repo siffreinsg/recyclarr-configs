@@ -1,5 +1,5 @@
 sonarr:
-  series:
+  web1080p:
     base_url: https://siffreinsg.ghost.usbx.me/sonarr
     api_key: !secret sonarr_apikey
     delete_old_custom_formats: true
