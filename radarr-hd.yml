@@ -14,7 +14,6 @@ radarr:
       # =================================
       # HD Bluray + WEB
       # =================================
-      custom_formats:
       - trash_ids:
           # ===== MULTi Audio =====
           - 72b1548df1ac3175ca105a9ce7043c91  # Multi-Audio
