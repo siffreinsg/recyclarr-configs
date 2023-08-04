@@ -9,7 +9,7 @@ radarr:
     replace_existing_custom_formats: true
     quality_profiles:
       - name: HD - MULTi
-        reset_unmatched_scores: false
+        reset_unmatched_scores: true
     custom_formats:
       # =================================
       # HD Bluray + WEB
